@@ -1,5 +1,74 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Social Media App
+
+A simple social media application built with React Native, TypeScript, and Redux Toolkit. This app allows users to create posts with images or videos, view a feed of posts, and manage their profiles.
+
+## Features
+
+- **User Authentication**: Signup and login functionality with form validation.
+- **Create Posts**: Users can create posts with titles, descriptions, and media (images/videos).
+- **Feed**: Display a feed of posts with infinite scrolling.
+- **Profile Management**: Users can view and manage their profiles.
+- **Unit Testing**: Test coverage using Jest with at least 70% coverage.
+
+## Technologies Used
+
+- React Native
+- TypeScript
+- Redux Toolkit
+- React Navigation
+- Jest (for testing)
+- React Native Image Picker (for media selection)
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js
+- Yarn (or npm)
+- React Native CLI
+- Android Studio or Xcode (for mobile emulators)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/social-media-app.git
+   cd social-media-app
+
+To run tests with coverage, use:
+ - yarn test --coverage
+
+
+# Directory Structure
+
+/src
+├── /components         # Reusable components
+├── /screens            # Screen components
+├── /store              # Redux store and slices
+├── /models             # TypeScript models
+├── /mockData           # Sample data for development
+├── /types              # Type definitions
+└── /viewmodels         # ViewModel patterns for separating logic
+
+# Acknowledgments
+Inspired by various social media applications.
+Thanks to the React Native community for their resources and documentation.
+
+
+### Tips for Customization
+
+1. **Project Links**: Update the GitHub repository link with your actual project URL.
+2. **Dependencies**: Add or modify the list of technologies and libraries used in your project if there are others not mentioned.
+3. **Running Instructions**: Adjust the running instructions based on any specific configurations or setup steps you might have.
+4. **License**: If you are using a different license, make sure to update that section accordingly.
+
+Once you've made the necessary modifications, save this content to a file named `README.md` in the root directory of your project.
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
@@ -77,3 +146,4 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
